@@ -2,6 +2,7 @@
 /* - 1. Header */
 /* - 2. Hero */
 /* - 3. Random Info */
+/* - 4. Quote */
 
 * {
   margin: 0;
@@ -147,4 +148,26 @@ ul a {
 .subtext {
   text-align: center;
   font-size: 18px;
+}
+
+/* 4. Quote */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 256px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote .author {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
 }
