@@ -1,23 +1,29 @@
+/* Sections: */
+/* - 1. Header */
+/* - 2. Hero */
+
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
 }
 
 body {
-  background: #1f2937;
   height: 100vh;
-  margin: 0 128px;
   display: flex;
   flex-direction: column;
 }
 
+/* 1. Header */
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
+  background: #1f2937;
+  padding: 12px 128px;
 }
 
-/* .header-links, .header-logo */
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
@@ -40,4 +46,47 @@ li {
 ul a {
   text-decoration-line: none;
   color: white;
+}
+
+/* 2. Hero */
+.hero {
+  display: flex;
+  background: #1f2937;
+  padding: 64px 128px;
+  gap: 32px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-text button {
+  background: #3882f6;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 0.5em;
+  margin-top: 8px;
+  margin-right: auto;
+}
+
+.hero img {
+  background-color: #6d747d;
+  color: white;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
