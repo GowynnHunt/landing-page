@@ -4,6 +4,7 @@
 /* - 3. Random Info */
 /* - 4. Quote */
 /* - 5. Action */
+/* - 6. Copyright */
 
 * {
   margin: 0;
@@ -35,7 +36,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background: #1f2937;
+  background-color: #1f2937;
   padding: 12px 200px;
 }
 
@@ -206,4 +207,13 @@ ul a {
 
   font-size: 16px;
   font-weight: bold;
+}
+
+/* - 6. Copyright */
+
+.copyright {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 36px 96px;
+  text-align: center;
 }
