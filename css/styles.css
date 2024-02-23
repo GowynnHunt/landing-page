@@ -3,6 +3,7 @@
 /* - 2. Hero */
 /* - 3. Random Info */
 /* - 4. Quote */
+/* - 5. Action */
 
 * {
   margin: 0;
@@ -115,7 +116,7 @@ ul a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 256px 64px;
+  padding: 32px 256px 128px;
   gap: 36px;
 }
 
@@ -170,4 +171,39 @@ ul a {
   font-size: 24px;
   font-weight: 700;
   align-self: flex-end;
+}
+
+/* - 5. Action */
+
+.action {
+  padding: 100px 256px;
+}
+
+.action .wrapper {
+  background-color: #3882f6;
+  border-radius: 0.5em;
+  padding: 36px 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action h1 {
+  font-size: 24px;
+  color: white;
+}
+
+.action p {
+  color: #cad6eb;
+}
+
+.action button {
+  background-color: #3882f6;
+  align-self: center;
+  color: white;
+  border: white 2px solid;
+  padding: 4px 28px;
+  border-radius: 0.5em;
+
+  font-size: 16px;
+  font-weight: bold;
 }
